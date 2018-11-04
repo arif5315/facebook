@@ -37,8 +37,6 @@ function isUserValid(username, password) {
     for (let i = 0; i < database.length; i++) {
         if (database[i].username === username && database[i].password === password) {
             bool = true;
-        } else {
-            bool = false;
         }
     }
     return bool;
